@@ -1,1 +1,68 @@
-// All of your CSS goes here
+html {
+  margin: 0;
+  padding: 0;
+  background-color: #000; /* Black page background */
+}
+body {
+  width: 70%; /* keep content within 70% of page width */
+  margin: 0 auto;
+  font: 100% Arial, Helvetica, sans-serif;
+  padding: 1em 50px;
+  background: white;
+  border-top: 12px solid tan;
+  border-bottom: 12px solid tan;
+}
+h1 {
+  font-family: Helvetica Neue, script;
+  font-size: 4vw;
+  font-weight: normal;
+  font-style: bold;
+  color: #000;
+  text-shadow:5px 5px 10px #777;
+}
+header {
+   background-image: url("img/hawaiibeach.jpg");
+   background-size: 100% 100%;
+   background-repeat: no-repeat;
+   padding: 50px;
+   border: 3px solid #888; /* Gray border */
+}
+h2 {
+  font-family: Helvetica, sans-serif;
+  font-size: 1em;
+  font-weight: normal;
+  font-style: italic;
+  padding: 15px;
+  color: #000;
+  background: tan; /* tan background*/
+  text-align: center;
+}
+img {
+  float:right;
+  border: 3px solid #888; /* Gray border */
+}
+
+/* Style of the buttons */
+.btn-group button {
+    font-family: Helvetica, sans-serif;
+    background-color: #ffb8a2; /* button background color */
+    border: 3px solid #888; /* Gray border */
+    border-radius: 50px 50px; /*rounded corners */
+    font-size: 1em;
+    color: black; /* black text */
+    padding: 10px 20px;
+    cursor: pointer; /* Pointer icon */
+    float: center; /* Float the buttons side by side */
+}
+
+/* Clear floats */
+.btn-group:after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* Add a background color on hover */
+.btn-group button:hover {
+    background-color: #888;
+}
